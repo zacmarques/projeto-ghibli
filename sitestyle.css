@@ -1,0 +1,317 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400&display=swap');
+*{
+    font-family: 'Fredoka', sans-serif;
+    min-width: 320px;
+    max-width: 2000px;
+    /*
+    !Medidas Absolutas
+    <cm, mm, in, px, pt(n recomenda usar em tela), pc(não recomenda usar em tela)> 
+
+    !Medidas Relativas
+    em, ex, rem, vw(viewport), vh, %. 
+    Geralmente 16px = 1em
+    !Recomendações: usar em e px.
+    */
+}
+
+:root {
+    --cor0: #146E8F;
+    --cor1: #1565d6;
+    --cor2: #1B92BE;
+    --cor3: #59ACCA;
+    --cor4: #1b1d1f;
+    --cor5: #ffffff;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Fredoka', sans-serif;
+}
+
+body {
+    background-image: linear-gradient(80deg, var(--cor3),var(--cor2),var(--cor1), var(--cor0));
+    background-attachment: fixed;
+    text-align: center;
+    width: auto;
+    height: auto;
+    padding: 2px;
+    border-radius: 10px;
+}
+
+header { /*cabeçalho*/
+    padding: 10px auto 20px auto;
+    border-radius: 10px;
+    margin: 5px auto 0px auto;
+    border: 20px;
+}
+header > span{
+    align-items: center;
+    background-attachment: scroll;
+}
+header > img{
+    display: block;
+    width: 50%;
+}
+span > h1 {
+    font-family: var(--fonte-destaque);
+    font-size: 40px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: start;
+    margin: 2px 0px 0px 0px;
+    text-shadow: 2px 3px 2px #c1c2c481;
+}
+
+span > h2 {
+    font-family: 'Fredoka', Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #44849b;
+    text-align: start;
+    margin: 0px 0px 50px 10px;
+    text-shadow: 1px 3px 3px #1b1d1f33;
+}
+
+nav {
+    align-items: center;
+    weight: 600px;
+    width: 600px;
+    padding: 3px auto;
+    margin-left: auto;
+    margin-bottom: auto;
+    font-size: 25px;
+    
+}
+nav > a {
+    max-width: 375px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    margin-right: 20px;
+    text-decoration: none;
+}
+nav> a:hover{
+    background-color: #1565d6;
+    text-decoration: underline;
+}
+nav > a:active{
+    color: #1b1d1f;
+}
+nav > a:hover{
+    text-decoration: underline;
+}
+main {
+    min-width: 320px;
+    max-width: 1200px;
+    padding-right: 100px ;
+    padding-left: 100px;
+    background-color: var(--cor5);
+    text-align: justify;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+div#conteúdo{
+    width: 100%;
+    height: 1100px;
+    background-color:#ffffff;
+    columns: auto;
+}
+h1.conteudo{
+    margin-top: 90px;
+}
+span.h1a{
+    width: 45%;
+    font-size: 50px;
+    padding-top: 0px;
+    padding-bottom: 30px;
+    border-top-style: solid;
+    border-top-width: 0px;
+    float: inline-start;
+    text-align: left;
+    font-weight: bold ;
+    background-attachment: fixed;
+}
+span.h1b{
+    width: 45%;
+    font-size: 50px;
+    padding: auto;
+    margin: auto;
+    height: 77px;
+    float: inline-end;
+    font-weight: bold ;
+    background-attachment: fixed;
+}
+div#left{
+    background-color: #ffffff;
+    width:45%;
+    height: 750px;
+    float: left;
+    text-align: justify;
+    font-size:25px ;
+    font-weight: bold ;
+    color: black;
+    padding: 5px 20px 5px 5px;
+    margin: 30px 10px 550px 5px;
+    border-radius: 10px;
+}
+div#left > p{
+    font-size: 20px;
+    text-align: justify;
+    color: black;
+
+}
+div#right {
+    width: 45%;
+    float: inline-end;
+    text-align: left;
+    font-size:20px ;
+    font-weight: bold ;
+    background-attachment: fixed;
+    background-color: #1565d6;
+    color: #ffffff;
+    padding: 100px auto 5px 5px;
+    margin: 100px auto 100px auto;
+}
+h1{
+    font-size:40px;
+    text-align: justify;
+}
+h2{
+    font-size:30px;
+    text-align: justify;
+}
+p{
+    font-size: 20px;
+    text-align: justify;
+    color: #535353;
+    line-height: 2em;
+}
+div.video{
+    background-color: var(--cor1);
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    position: relative;
+    padding-bottom: 56.5%;
+
+
+}
+div.video > iframe{
+    top: 6%;
+    left: 5%;
+    height: 90%;
+    width: 90%;
+    position: absolute;
+}
+div.texto {
+    margin: 20px 0px 10px 0px;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 200px;
+}
+span.audio > audio{
+    margin: 5px auto 5px auto;
+    align-items: center;
+}
+span.galeria{
+    weight:1000px;
+    border: 50px #146E8F;
+    text-align: center;
+    background-attachment: fixed;
+    padding: 180px 20px 10px 20px;
+    margin: 80px 200px 200px 30px;
+}
+span.galeria > img{
+    border: 50px #146E8F;
+    margin-right: 5px;
+    background-color: #576970d7;
+}
+aside {
+    background-color: #1b93bea1;
+    text-align: center;
+    align-items: flex-start;
+
+}
+aside > h1{
+    background-color: #1565d6;
+    color: #ffffff;
+    padding: 10px;
+    margin: 5px -15px 5px -20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 20px;
+}
+aside > img{
+    max-height: 100%;
+    max-width: 100%;
+    min-height: 240px;
+    min-width:  240px;
+}
+div.botao{
+    max-height: 100%;
+    max-width: 100%;
+    min-height: 100px;
+    min-width: auto;
+    text-align: center;
+    background-attachment: fixed;
+    padding: 20px;
+    margin: auto;
+    font-size: 40px;
+    
+}
+div.botao > span{
+        margin: auto;
+        padding: auto;
+        width: 900px;
+}
+nav.navbotao{
+    max-width: 100%;
+    padding: auto;
+    margin: auto;
+    font-size: 40px;
+}
+nav.navbotao > a.botao{
+    max-height: 33%;
+    max-width: auto;
+    min-height: 20px;
+    min-width: auto;
+    padding: 3px;
+    background-color: #1b1d1f;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+    font-style: normal;
+    font-size: 40px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+nav.navbotao > a.botao:hover{
+    background-color: #1565d6;
+    text-decoration: underline;
+}
+nav.navbotao > a.botao:active{
+    color: #1565d6;
+}
+footer {
+    background-color: #1b1d1f;
+    color: #59ACCA;
+    text-align: center;
+    padding: 3px;
+    margin: 1px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+footer > p{
+    text-align: center;
+    color:white;
+}
+footer > p > a{
+    color: #ffffff;
+}
+footer > p > a:visited{
+    color: #1565d6;
+}
+footer > a:active{
+    color: white;
+}
+
