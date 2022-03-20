@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400&display=swap');
 *{
     font-family: 'Fredoka', sans-serif;
-    min-width: 250px;
+    min-width: 10px;
     max-width: 2000px;
     /*
     !Medidas Absolutas
@@ -66,24 +66,66 @@ div.head > h2.main {
 }
 
 nav.menu {
-    display: inline-block;
+    display: block;
     position: absolute;
     height: 30px;
     width: 800px;
     font-size: 25px;
     top: 20px;
-    left: 1000px;
+    left: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    text-decoration: none;
 }
 a.menu {
-        display: inline-block;
-        width: 100px;
-        position: relative;
-        z-index: 20;
-        font-size: 20px;
-        line-height: 25px;
-        text-transform: uppercase;
-        font-weight: 700;
-        color: #fff;
+    display: inline-block;
+    width: 100px;
+    position: absolute;
+    z-index: 20;
+    font-size: 30px;
+    line-height: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+}
+a.menu:hover{
+    background-color: #1565d6;
+    text-decoration: underline;
+}
+a.menu:active{
+    color: #1b1d1f;;
+}
+#home.menu{
+    display: inline-block;
+    position: absolute;
+    top: 15px;
+    left: 0px;
+    width: 100px;
+}
+#studio.menu{
+    position: absolute;
+    top: 15px;
+    left: 100px;
+    width: 250px;
+}
+#sobre.menu{
+    position: absolute;
+    top: 15px;
+    left: 350px;
+    width: 100px;
+}
+#loja.menu{
+    position: absolute;
+    top: 15px;
+    left: 465px;
+    width: 100px;
+}
+#contato.menu{
+    position: absolute;
+    top: 15px;
+    left: 580px;
+    width: 120px;
 }
 .backgroundimg{
     display: inline-block;
@@ -127,7 +169,7 @@ div#left{
     font-weight: bold ;
     color: black;
     padding: 5px 20px 5px 5px;
-    margin: 30px 200px 100px 5px;
+    margin: 30px 200px 350px 5px;
     border-radius: 10px;
     position: left;
 }
