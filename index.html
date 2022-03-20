@@ -10,66 +10,64 @@
 </head>
 <body>
     <header>
-        <span>
-            <h1><strong>GHIBLI STUDIO</strong></h1> 
-            <h2>GHIBLI STORE 
-                <nav>
-                    <a href="https://studioghibli.com.br/" target="_self" rel="external">HOME</a>
-                    <a href="#" target="_self" rel="internal">STUDIO GHIBLI</a>
-                    <a href="https://studioghibli.com.br/sobre/" target="_self" rel="external">SOBRE</a>
-                    <a href="https://studioghibli.com.br/ghiblistore/" target="_self" rel="external">LOJA</a>
-                    <a href="https://studioghibli.com.br/contato/" target="_self" rel="external">CONTATO</a>
-                </nav>
-            </h2>
-        </span>
-        <picture>
-            <source media="(max-width: 927px)" srcset="./375pxlogo.png" type="image/png"> <!--detalhe do source, precisa começar com a imagem maior de base(a img) e ir subindo os sources em ordem decrescente. O menor mais em cima, pra ter a maior prioridade-->
-            <source media="(max-width:1342px)" srcset="./800pxlogo.png" type="image/png">
-            <img src="1280x1024logo.png" alt="logogrande">
-        </picture>
+        <div class="head">
+            <h1 class="main" id="primeiro"><strong>GHIBLI STUDIO</strong></h1> 
+            <h2 class="main" id="segundo">GHIBLI STORE </h2>
+            <nav class="menu">
+                <a class="menu" id="home" href="https://studioghibli.com.br/" target="_self" idrel="external">Home</a>
+                <a class="menu" id="studio" href="#" target="_self" rel="internal">Studio Ghibli</a>
+                <a class="menu" id="sobre" href="https://studioghibli.com.br/sobre/" target="_self" rel="external">Sobre</a>
+                <a class="menu" id="loja" href="https://studioghibli.com.br/ghiblistore/" target="_self" rel="external">Loja</a>
+                <a class="menu" id="contato" href="https://studioghibli.com.br/contato/" target="_self" rel="external">Contato</a>
+            </nav>
+            <div class="backgroundimg">
+                
+            </div>
+        </div>
     </header>
 
     <main>
         <div id="conteúdo">
-            <h1 class="conteudo">
-                <span class="h1a" style="padding-top: 0px;border-top-style: solid;border-top-width: 0px;margin-top: 10px;width: 376px;height: 0px;"><strong>Studio Ghibli</strong></span>
-                <span class="h1b"><strong>Dados Técnicos</strong></span>
-                <div id="left">
-                    <picture>
-                        <source media="(max-width: 1288px )" srcset="./730logopq.png">
-                        <img src="730logo.png" alt="logoghibli">
-                    </picture>
-                    <p> O Studio Ghibli é um estúdio de animação japonês, sediado em Koganei, Tóquio. Fundado em 1985, o estúdio já produziu 21 longas de animação, sendo o primeiro O Castelo no Céu (1986) e o mais recente As Memórias de Marnie (2014).</p>
-                    <p>O Studio Ghibli foi fundado em 1985 por Hayao Miyazaki, Isao Takahata, Toshio Suzuki e Yasuyoshi Tokuma, logo após o sucesso de Nausicaä do Vale do Vento, no ano anterior. O estúdio lançou seu primeiro filme, O Castelo no Céu, no ano seguinte. O logotipo da empresa é o Totoro, o personagem do filme Meu Amigo Totoro, lançado em 1988. Com exceção de seis produções, todos os filmes do estúdio foram dirigidos por Hayao Miyazaki e Isao Takahata. Toshio Suzuki, por sua vez, é o produtor da maioria deles. Em 2001, o Museu Ghibli, um museu dedicado as obras do estúdio, foi inaugurado.</p>
-                </div>
-                <div id="right">
-                <h1 style="text-align: center;"> <strong>Dados Técnicos</strong></h1>
-                <ul>
-                    <h2>Studio Ghibli, Inc. <br>
+            <div id="left">
+                <div class="h1a"><strong>Studio Ghibli</strong></div>
+                <picture>
+                    <source media="(max-width: 1288px )" srcset="./730logopq.png">
+                    <img src="730logo.png" alt="logoghibli">
+                </picture>
+                <p> O Studio Ghibli é um estúdio de animação japonês, sediado em Koganei, Tóquio. Fundado em 1985, o estúdio já produziu 21 longas de animação, sendo o primeiro O Castelo no Céu (1986) e o mais recente As Memórias de Marnie (2014).</p>
+                <p>O Studio Ghibli foi fundado em 1985 por Hayao Miyazaki, Isao Takahata, Toshio Suzuki e Yasuyoshi Tokuma, logo após o sucesso de Nausicaä do Vale do Vento, no ano anterior. O estúdio lançou seu primeiro filme, O Castelo no Céu, no ano seguinte. O logotipo da empresa é o Totoro, o personagem do filme Meu Amigo Totoro, lançado em 1988. Com exceção de seis produções, todos os filmes do estúdio foram dirigidos por Hayao Miyazaki e Isao Takahata. Toshio Suzuki, por sua vez, é o produtor da maioria deles. Em 2001, o Museu Ghibli, um museu dedicado as obras do estúdio, foi inaugurado.</p>
+            </div>
+            <div id="right">
+                <div class="h1b"><strong>Dados Técnicos</strong></div>
+                <div class="bluebox">
+                    <h1 style="text-align: center;"> <strong>Dados Técnicos</strong></h1>
+                    <ul>
+                        <h2>Studio Ghibli, Inc. <br>
                         Kabushiki gaisha Sutajio Jiburi - Japão</h2>
-                    <h3>Desde 1985</h3>
-                    <dl>
-                        <dt> Atividade </dt><dd> Animação </dd>
-                        <dt>Indústria</dt> <dd> Cinema</dd>
-                        <dt>Fundação</dt> <dd>15 de junho de 1985</dd>
-                        <dt>Fundadores</dt>   <dd>
-                                                Isao Takahata;<br>
-                                                Hayao Miyazaki; <br>
-                                                Toshio Suzuki; <br>
-                                                Yasuyoshi Tokuma;</dd>
-                        <dt>Sede</dt>   <dd>Kaganei, Tóquio - Japão.</dd>
-                        <dt>Produtos</dt>      <dd>  
-                                                Filmes de animação;<br>
-                                                Curtas de animação;<br>
-                                                Séries de animação;<br>
-                                                Comerciais para TV.</dd>
-                        <dt>Presidente</dt> <dd><abbr title="Presidente">Kiyofumi Nakajima</abbr></dd>
-                        <dt>Vice-Presidente</dt> <dd>Koji Hoshino</dd>
-                        <dt>Empresa-Mãe</dt> <dd>Tokuma Shoten (1985–2005)</dd>
-                        <dt>Antecessora</dt> <dd>Topcraft</dd>
-                        <dt>Site Oficial</dt> <dd><a href="https://www.ghibli.jp/" target="_blank" rel="external" style="color: #ffffff;">ghibli.jp</a></dd>
-                    </dl>
-                </ul>
+                        <h3>Desde 1985</h3>
+                        <dl>
+                            <dt> Atividade </dt><dd> Animação </dd>
+                            <dt>Indústria</dt> <dd> Cinema</dd>
+                            <dt>Fundação</dt> <dd>15 de junho de 1985</dd>
+                            <dt>Fundadores</dt>   <dd>
+                                                        Isao Takahata;<br>
+                                                        Hayao Miyazaki; <br>
+                                                        Toshio Suzuki; <br>
+                                                        Yasuyoshi Tokuma;</dd>
+                            <dt>Sede</dt>   <dd>Kaganei, Tóquio - Japão.</dd>
+                            <dt>Produtos</dt>      <dd>  
+                                                        Filmes de animação;<br>
+                                                        Curtas de animação;<br>
+                                                        Séries de animação;<br>
+                                                        Comerciais para TV.</dd>
+                            <dt>Presidente</dt> <dd><abbr title="Presidente">Kiyofumi Nakajima</abbr></dd>
+                            <dt>Vice-Presidente</dt> <dd>Koji Hoshino</dd>
+                            <dt>Empresa-Mãe</dt> <dd>Tokuma Shoten (1985–2005)</dd>
+                            <dt>Antecessora</dt> <dd>Topcraft</dd>
+                            <dt>Site Oficial</dt> <dd><a href="https://www.ghibli.jp/" target="_blank" rel="external" style="color: #ffffff;">ghibli.jp</a></dd>
+                        </dl>
+                    </ul>
+                </div>
             </div>
         </div>
         <div class="texto">
@@ -83,7 +81,7 @@
                     <iframe src="https://www.youtube.com/embed/z9Ug-3qhrwY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div> 
                 <span class="audio">
-                    <audio src="howlsmoving.mp3" preload="metadata" controls="autoplay" controls="loop"></audio>
+                    <audio src="howlsmoving.mp3" preload="metadata" controls="autoplay, loop"></audio>
                 </span>
             <h2>A fundação do Studio Ghibli</h2>
                 <p>	Hayao Miyazaki, Isao Takahata e Toshio Suzuki uniram-se para fazer filmes animados do jeito que quisessem fazer. Assim, o primeiro filme do Studio Ghibli, que estreou em 1986, foi O Castelo no Céu levando 775 mil pessoas aos cinemas – um sucesso de bilheteria e de crítica. </p>
@@ -156,12 +154,20 @@
         </div>
         <aside>
             <h1>Galeria de Fotos</h1>
-            <span class="galeria">
-                <a href="https://studioghibli.com.br/wp-content/uploads/2020/06/Studio-Ghibli-Koganei.jpg" target="_blank" rel="external"><img src="studio1.jpg" alt="foto1"></a>
-                <a href="https://studioghibli.com.br/wp-content/uploads/2020/06/Ghibli-2.jpg" target="_blank" rel="external"><img src="studio2.jpg" alt="foto2"></a>
-                <a href="https://studioghibli.com.br/wp-content/uploads/2020/06/Studio-Ghibli-2.jpg" target="_blank" rel="external"><img src="studio3.jpg" alt="foto3"></a>
-                <a href="https://studioghibli.com.br/wp-content/uploads/2020/06/Studio-Ghibli-3.jpg" target="_blank" rel="external"><img src="studio4.jpg" alt="foto4"></a>
-        </span>
+            <div class="galeria">
+                <a href="https://studioghibli.com.br/wp-content/uploads/2020/06/Studio-Ghibli-Koganei.jpg" target="_blank" rel="external">
+                    <div class="quadrado" id="q1"></div>
+                </a>
+                <a href="https://studioghibli.com.br/wp-content/uploads/2020/06/Ghibli-2.jpg" target="_blank" rel="external">
+                    <div class="quadrado" id="q2"></div>
+                </a>
+                <a href="https://studioghibli.com.br/wp-content/uploads/2020/06/Studio-Ghibli-2.jpg" target="_blank" rel="external">
+                    <div class="quadrado" id="q3"></div>
+                </a>
+                <a href="https://studioghibli.com.br/wp-content/uploads/2020/06/Studio-Ghibli-3.jpg" target="_blank" rel="external">
+                    <div class="quadrado" id="q4"></div>
+                </a>
+            </div>
         </aside>
         <div class="botao">
         <span>
