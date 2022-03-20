@@ -132,9 +132,9 @@ a.menu:active{
     z-index: -1px;
     min-width: 1000px;
     max-width: 2000px;
-    height: 600px;
+    height: 98vh;
     background-image: url(./1280x1024logo.png);
-    background-position: center;
+    background-position: center center;
     background-size: 1000px 500px;
     background-repeat: no-repeat;
     background-attachment: fixed;
